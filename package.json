@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.51.0",
+    "vue": "^3.5.13"
+  },
+  "scripts": {
+    "build:app": "vite build --outDir ./app --ssr app.ts",
+    "build:main": "vite build --outDir ./dist main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.1",
+    "vite-plugin-singlefile": "^2.1.0"
+  }
+}
